@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 class MapController extends Controller
 {
     public function index()
@@ -13,4 +14,17 @@ class MapController extends Controller
     {
         return view('tugashandson1');
     }
+
+    public function tugashandson2()
+    {
+        $markers = DB::table('markers')->get();
+        $polygons = DB::table('polygons')->get();
+        return view('tugashandson2', [
+            'markers' => $markers,
+            'polygons' => $polygons
+        ]);
+
+    }
+
+
 }

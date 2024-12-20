@@ -3,10 +3,10 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Tugas Hands On 1 SIG</title>
+    <title>SIG | Tugas Hands-On 1</title>
 
     <!-- Font Poppins -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"> -->
 
     <!-- Leaflet.js CDN --> 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /> 
@@ -16,7 +16,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key={{config('app.google_maps_api_key')}}"></script> 
     <style> 
         body { 
-            font-family: Poppins, sans-serif; 
+            font-family: Arial, sans-serif; 
             margin: 0; 
             padding: 0; 
         } 
@@ -32,7 +32,7 @@
     </style> 
 </head> 
 <body>
-<h1>Tugas Hands On 1 SIG</h1> 
+<h1>Tugas Hands-On 1</h1> 
  
  <div id="leaflet-map"></div> 
  <div id="google-map"></div>
