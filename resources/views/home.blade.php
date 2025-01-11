@@ -144,7 +144,7 @@
           <div class="icon">
             <img src="{{asset('assets/icons/work-from-home.png')}}" alt="Document Icon">
           </div>
-          <div class="label">Tugas Hands On-2 & Hands-On 3</div>
+          <div class="label">Tugas Hands On-2, 3, & 4</div>
         </a>
       </div>
     </div>
