@@ -15,11 +15,11 @@ class MapController extends Controller
         return view('tugashandson1');
     }
 
-    public function tugashandson2()
+    public function tugashandson234()
     {
         $markers = DB::table('markers')->get();
         $polygons = DB::table('polygons')->get();
-        return view('tugashandson2', [
+        return view('tugashandson234', [
             'markers' => $markers,
             'polygons' => $polygons
         ]);

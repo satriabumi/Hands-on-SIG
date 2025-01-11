@@ -49,8 +49,9 @@
         <div class="col-5 offset-1 my-auto">
           <h2>Hello!</h2>
           <h1 class=fw-bold>I Kadek Agung Bagus Satria Bumi Kelana</h1>
-          <p>2105541137 | Teknik Elektro | Universitas Udayana </p>
-          <p class=>Sistem Informasi Geografis</p>
+          <br>
+          <p>2105541137 | Teknik Elektro | Universitas Udayana <br>
+            Sistem Informasi Geografis</p>
           <button class="btn btn-custom1 my-1" onclick="location.href=' #tugas'">Tugas
             <svg width=" 30" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,19 +67,19 @@
           </button>
           <div class="social-icon">
             <a href="https://linkedin.com/in/i-kadek-agung-bagus-satria-bumi-kelana" target="_blank" class="icon">
-              <img src="{{asset('assets/linkedin.png')}}" alt="LinkedIn Icon">
+              <img src="{{asset('assets/icons/linkedin.png')}}" alt="LinkedIn Icon">
             </a>
             <a href="https://instagram.com/satriabumik" target="_blank" class="icon">
-              <img src="{{asset('assets/instagram.png')}}" alt="Instagram Icon">
+              <img src="{{asset('assets/icons/instagram.png')}}" alt="Instagram Icon">
             </a>
             <a href="https://github.com/satriabumi" target="_blank" class="icon">
-              <img src="{{asset('assets/github.png')}}" alt="GitHub Icon">
+              <img src="{{asset('assets/icons/github.png')}}" alt="GitHub Icon">
             </a>
           </div>
           <p class=" social-text">Find me at Social Media</p>
         </div>
         <div class="image-hero col-5">
-          <img src="{{asset('assets/location.png')}}" width="80%" class="float-end" alt="">
+          <img src="{{asset('assets/icons/location.png')}}" width="80%" class="float-end" alt="">
         </div>
       </div>
     </div>
@@ -99,19 +100,19 @@
       <div class="cards">
         <a href="map" class="card">
           <div class="icon">
-            <img src="{{asset('assets/notes.png')}}" alt="Document Icon">
+            <img src="{{asset('assets/icons/notes.png')}}" alt="Document Icon">
           </div>
           <div class="label">Latihan Hands-On 1</div>
         </a>
         <a href="interactive" class="card">
           <div class="icon">
-            <img src="{{asset('assets/notes.png')}}" alt="Document Icon">
+            <img src="{{asset('assets/icons/notes.png')}}" alt="Document Icon">
           </div>
           <div class="label">Latihan Hands-On 2</div>
         </a>
-        <a href="latihan-hands-on-3.html" class="card">
+        <a href="handson3" class="card">
           <div class="icon">
-            <img src="{{asset('assets/notes.png')}}" alt="Document Icon">
+            <img src="{{asset('assets/icons/notes.png')}}" alt="Document Icon">
           </div>
           <div class="label">Latihan Hands-On 3</div>
         </a>
@@ -135,21 +136,15 @@
       <div class="cards">
         <a href="tugashandson1" class="card">
           <div class="icon">
-            <img src="{{asset('assets/work-from-home.png')}}" alt="Document Icon">
+            <img src="{{asset('assets/icons/work-from-home.png')}}" alt="Document Icon">
           </div>
           <div class="label">Tugas Hands On-1</div>
         </a>
-        <a href="tugashandson2" class="card">
+        <a href="tugashandson234" class="card">
           <div class="icon">
-            <img src="{{asset('assets/work-from-home.png')}}" alt="Document Icon">
+            <img src="{{asset('assets/icons/work-from-home.png')}}" alt="Document Icon">
           </div>
-          <div class="label">Tugas Hands On-2</div>
-        </a>
-        <a href="tugashandson3" class="card">
-          <div class="icon">
-            <img src="{{asset('assets/work-from-home.png')}}" alt="Document Icon">
-          </div>
-          <div class="label">Tugas Hands On-3</div>
+          <div class="label">Tugas Hands On-2 & Hands-On 3</div>
         </a>
       </div>
     </div>
